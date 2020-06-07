@@ -4,6 +4,6 @@ import observer.order.Order;
 
 public interface Observer {
 
-    void ubdate(Order order);
+    void update(Order order);
 
 }
