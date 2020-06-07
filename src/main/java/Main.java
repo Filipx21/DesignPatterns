@@ -1,9 +1,9 @@
-import observer.Observer;
+import observer.ObserverMain;
 
 public class Main {
 
     public static void main(String[] args) {
-        Observer observer = new Observer();
+        ObserverMain observer = new ObserverMain();
         observer.start();
     }
 
