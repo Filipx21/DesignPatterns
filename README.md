@@ -1,7 +1,7 @@
 ## DesignPatterns ##
 This repository shows different approaches to design patterns.<br>
 Design Pattern: <br>
-<|> Observable  <br>
+<|> Observer  <br>
 <|> Soon...  <br>
 
 ### Technologies ###
