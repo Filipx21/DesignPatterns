@@ -18,7 +18,7 @@ public class HouseMain {
                 .buildContinent("Africa")
                 .buildColor("Red")
                 .buildHeight(2.33)
-                .buildType("giraffe")
+                .buildType("Giraffe")
                 .build();
 
         System.out.println(animal);
