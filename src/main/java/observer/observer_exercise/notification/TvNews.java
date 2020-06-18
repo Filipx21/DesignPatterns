@@ -1,7 +1,7 @@
-package observer_exercise.notification;
+package observer.observer_exercise.notification;
 
-import observer_exercise.infrastructure.Observer;
-import observer_exercise.weather.WeatherForecast;
+import observer.observer_exercise.infrastructure.Observer;
+import observer.observer_exercise.weather.WeatherForecast;
 
 public class TvNews implements Observer {
 

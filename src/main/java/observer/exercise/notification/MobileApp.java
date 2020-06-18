@@ -1,6 +1,6 @@
-package observer.notification;
+package observer.exercise.notification;
 
-import observer.order.Order;
+import observer.exercise.order.Order;
 
 public class MobileApp implements Observer {
 

@@ -1,4 +1,4 @@
-package observer_exercise.infrastructure;
+package observer.observer_exercise.infrastructure;
 
 public interface ObservableWeather {
 

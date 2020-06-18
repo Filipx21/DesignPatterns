@@ -1,9 +1,9 @@
-package observer_exercise;
+package observer.observer_exercise;
 
-import observer_exercise.notification.InternetNews;
-import observer_exercise.notification.RadioNews;
-import observer_exercise.notification.TvNews;
-import observer_exercise.weather.WeatherForecast;
+import observer.observer_exercise.notification.InternetNews;
+import observer.observer_exercise.notification.RadioNews;
+import observer.observer_exercise.notification.TvNews;
+import observer.observer_exercise.weather.WeatherForecast;
 
 public class WeatherMain {
 

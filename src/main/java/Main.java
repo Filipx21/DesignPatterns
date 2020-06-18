@@ -1,5 +1,5 @@
-import observer.ObserverMain;
-import observer_exercise.WeatherMain;
+import observer.exercise2.MainObserverExercise;
+import singleton.SingletonMain;
 
 public class Main {
 
@@ -7,8 +7,15 @@ public class Main {
 //        ObserverMain observer = new ObserverMain();
 //        observer.start();
 
-        WeatherMain weatherMain = new WeatherMain();
-        weatherMain.weatherMain();
+//        WeatherMain weatherMain = new WeatherMain();
+//        weatherMain.weatherMain();
+
+//        SingletonMain singletonMain = new SingletonMain();
+//        singletonMain.start();
+
+        MainObserverExercise mainObserverExercise = MainObserverExercise.getInstance();
+        mainObserverExercise.run();
+
     }
 
 }

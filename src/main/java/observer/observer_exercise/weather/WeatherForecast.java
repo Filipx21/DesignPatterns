@@ -1,7 +1,7 @@
-package observer_exercise.weather;
+package observer.observer_exercise.weather;
 
-import observer_exercise.infrastructure.ObservableWeather;
-import observer_exercise.infrastructure.Observer;
+import observer.observer_exercise.infrastructure.ObservableWeather;
+import observer.observer_exercise.infrastructure.Observer;
 
 import java.util.HashSet;
 import java.util.Set;

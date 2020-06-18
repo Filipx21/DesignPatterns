@@ -1,6 +1,6 @@
-package observer.order;
+package observer.exercise.order;
 
-import observer.notification.Observer;
+import observer.exercise.notification.Observer;
 
 import java.util.HashSet;
 import java.util.Set;
