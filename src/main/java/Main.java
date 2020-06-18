@@ -13,8 +13,8 @@ public class Main {
 //        SingletonMain singletonMain = new SingletonMain();
 //        singletonMain.start();
 
-        MainObserverExercise mainObserverExercise = MainObserverExercise.getInstance();
-        mainObserverExercise.run();
+//        MainObserverExercise mainObserverExercise = MainObserverExercise.getInstance();
+//        mainObserverExercise.run();
 
     }
 
