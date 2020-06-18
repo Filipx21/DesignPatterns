@@ -1,12 +1,17 @@
 package builder;
 
+import builder.pattern_builder.HouseMain;
+
 public class BuilderMain {
 
-    private BuilderMain instance;
+    private static BuilderMain instance;
+    private HouseMain houseMain;
 
-    private BuilderMain(){}
+    private BuilderMain(){
+        houseMain = new HouseMain();
+    }
 
-    public BuilderMain getInstance(){
+    public static BuilderMain getInstance(){
         if(instance == null) {
             synchronized (BuilderMain.class) {
                 if(instance == null){
@@ -18,7 +23,7 @@ public class BuilderMain {
     }
 
     public void run() {
-
+        houseMain.mainHouse();
     }
 
 }

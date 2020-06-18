@@ -1,3 +1,4 @@
+import builder.BuilderMain;
 import observer.exercise2.MainObserverExercise;
 import singleton.SingletonMain;
 
@@ -15,6 +16,9 @@ public class Main {
 
 //        MainObserverExercise mainObserverExercise = MainObserverExercise.getInstance();
 //        mainObserverExercise.run();
+
+        BuilderMain builderMain = BuilderMain.getInstance();
+        builderMain.run();
 
     }
 
