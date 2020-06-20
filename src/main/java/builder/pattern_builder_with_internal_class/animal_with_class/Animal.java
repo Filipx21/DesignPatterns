@@ -1,4 +1,4 @@
-package builder.pattern_builder.animal_with_class;
+package builder.pattern_builder_with_internal_class.animal_with_class;
 
 public class Animal {
     private String type;

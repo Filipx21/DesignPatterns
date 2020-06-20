@@ -1,4 +1,4 @@
-package builder.pattern_builder.house_with_class;
+package builder.pattern_builder_with_internal_class.house_with_class;
 
 public class House {
     private String walls;

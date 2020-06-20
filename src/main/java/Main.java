@@ -1,6 +1,4 @@
 import builder.BuilderMain;
-import observer.exercise2.MainObserverExercise;
-import singleton.SingletonMain;
 
 public class Main {
 
@@ -19,6 +17,10 @@ public class Main {
 
         BuilderMain builderMain = BuilderMain.getInstance();
         builderMain.run();
+
+//        CommonsMain commonsMain = CommonsMain.getInstance();
+//        commonsMain.run();
+
 
     }
 

@@ -1,6 +1,6 @@
 package builder;
 
-import builder.pattern_builder.HouseMain;
+import builder.pattern_builder_with_internal_class.HouseMain;
 
 public class BuilderMain {
 
