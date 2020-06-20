@@ -1,8 +1,10 @@
 ## DesignPatterns ##
 This repository shows different approaches to design patterns.<br>
 Design Pattern: <br>
-<|> Observer  <br>
-<|> Soon...  <br>
+-> Observer  <br>
+-> Singleton  <br>
+-> Builer <br>
+-> soon..
 
 ### Technologies ###
 + [Java](https://www.java.com/pl/) - [Open Jdk 11](https://openjdk.java.net/install/)
