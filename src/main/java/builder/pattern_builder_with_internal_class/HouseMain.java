@@ -2,8 +2,11 @@ package builder.pattern_builder_with_internal_class;
 
         import builder.pattern_builder_with_internal_class.animal_with_class.Animal;
         import builder.pattern_builder_with_internal_class.house_with_class.House;
+        import builder.pattern_builder_with_internal_class.internal_class_builder_airport.FlightLeg;
         import builder.pattern_builder_with_internal_class.vehicle_with_internal_class.Vehicle;
         import builder.pattern_builder_with_internal_class.vehicle_with_internal_class.VehicleType;
+
+        import java.math.BigDecimal;
 
 public class HouseMain {
 
@@ -33,7 +36,9 @@ public class HouseMain {
                 .buildVehicleAge(2)
                 .build();
 
-        System.out.println(vehicle1);
-        System.out.println(vehicle2);
+        FlightLeg leg = new FlightLeg.FlightLegBuilder("Las Vegas", "Los Angeles").buildPrice(new BigDecimal(50.33)).build();
+        FlightLeg leg2 = new FlightLeg.FlightLegBuilder("Las Vegas", "Los Angeles").build();
+
+        System.out.println(leg2);
     }
 }

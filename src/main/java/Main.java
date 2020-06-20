@@ -1,4 +1,5 @@
 import builder.BuilderMain;
+import builder.classical_builder.BuilderWithInterface;
 
 public class Main {
 
@@ -17,6 +18,9 @@ public class Main {
 
         BuilderMain builderMain = BuilderMain.getInstance();
         builderMain.run();
+
+//        BuilderWithInterface builderWithInterface = new BuilderWithInterface();
+//        builderWithInterface.run();
 
 //        CommonsMain commonsMain = CommonsMain.getInstance();
 //        commonsMain.run();
