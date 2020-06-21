@@ -1,10 +1,10 @@
-package observer.exercise;
+package observer.observer_exercise3;
 
-import observer.exercise.notification.Email;
-import observer.exercise.notification.MobileApp;
-import observer.exercise.notification.TextMessage;
-import observer.exercise.order.Order;
-import observer.exercise.order.OrderStatus;
+import observer.observer_exercise3.notification.Email;
+import observer.observer_exercise3.notification.MobileApp;
+import observer.observer_exercise3.notification.TextMessage;
+import observer.observer_exercise3.order.Order;
+import observer.observer_exercise3.order.OrderStatus;
 
 public class ObserverMain {
 

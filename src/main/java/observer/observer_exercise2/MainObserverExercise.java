@@ -1,10 +1,10 @@
-package observer.exercise2;
+package observer.observer_exercise2;
 
-import observer.exercise2.notification.App;
-import observer.exercise2.notification.Email;
-import observer.exercise2.notification.Sms;
-import observer.exercise2.order.Order;
-import observer.exercise2.order.OrderStatus;
+import observer.observer_exercise2.notification.App;
+import observer.observer_exercise2.notification.Email;
+import observer.observer_exercise2.notification.Sms;
+import observer.observer_exercise2.order.Order;
+import observer.observer_exercise2.order.OrderStatus;
 
 import org.apache.commons.lang3.time.StopWatch;
 

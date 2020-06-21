@@ -1,4 +1,4 @@
-package singleton.exercise2;
+package singleton.singleton_exercise2;
 
 import java.io.Serializable;
 

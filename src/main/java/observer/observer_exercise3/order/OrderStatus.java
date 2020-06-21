@@ -1,4 +1,4 @@
-package observer.exercise.order;
+package observer.observer_exercise3.order;
 
 public enum OrderStatus {
 

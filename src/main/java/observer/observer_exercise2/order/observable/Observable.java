@@ -1,6 +1,6 @@
-package observer.exercise2.order.observable;
+package observer.observer_exercise2.order.observable;
 
-import observer.exercise2.notification.observer.Observer;
+import observer.observer_exercise2.notification.observer.Observer;
 
 public interface Observable {
 

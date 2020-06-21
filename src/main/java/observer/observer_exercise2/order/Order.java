@@ -1,7 +1,7 @@
-package observer.exercise2.order;
+package observer.observer_exercise2.order;
 
-import observer.exercise2.notification.observer.Observer;
-import observer.exercise2.order.observable.Observable;
+import observer.observer_exercise2.notification.observer.Observer;
+import observer.observer_exercise2.order.observable.Observable;
 
 import java.util.Arrays;
 import java.util.HashSet;

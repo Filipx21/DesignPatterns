@@ -1,6 +1,6 @@
 package singleton;
 
-import singleton.exercise.GameEngine;
+import singleton.singleton_exercise.GameEngine;
 
 public class SingletonMain {
 

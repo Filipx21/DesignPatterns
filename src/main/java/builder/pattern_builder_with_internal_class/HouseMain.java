@@ -36,9 +36,19 @@ public class HouseMain {
                 .buildVehicleAge(2)
                 .build();
 
-        FlightLeg leg = new FlightLeg.FlightLegBuilder("Las Vegas", "Los Angeles").buildPrice(new BigDecimal(50.33)).build();
-        FlightLeg leg2 = new FlightLeg.FlightLegBuilder("Las Vegas", "Los Angeles").build();
 
-        System.out.println(leg2);
+
+        House house1 = new House.HouseBuilder()
+                .buildFloors("50m")
+                .buildWalls("4")
+                .buildWindows("10")
+                .build();
+
+        System.out.println(house1);
+
+//        FlightLeg leg = new FlightLeg.FlightLegBuilder("Las Vegas", "Los Angeles").buildPrice(new BigDecimal(50.33)).build();
+//        FlightLeg leg2 = new FlightLeg.FlightLegBuilder("Las Vegas", "Los Angeles").build();
+
+//        System.out.println(leg2);
     }
 }
