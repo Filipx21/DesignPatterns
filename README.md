@@ -4,6 +4,7 @@ Design Pattern: <br>
 -> Observer  <br>
 -> Singleton  <br>
 -> Builer <br>
+-> Factory <br>
 -> soon..
 
 ### Technologies ###
