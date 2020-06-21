@@ -1,6 +1,7 @@
 import builder.BuilderMain;
 import builder.classical_builder.BuilderWithInterface;
 import builder.classical_builder.classical_builder_airport.AirLine;
+import factory.FactoryMain;
 import observer.observer_exercise2.MainObserverExercise;
 
 public class Main {
@@ -17,9 +18,9 @@ public class Main {
 
 //        MainObserverExercise mainObserverExercise = MainObserverExercise.getInstance();
 //        mainObserverExercise.run();
-
-        BuilderMain builderMain = BuilderMain.getInstance();
-        builderMain.run();
+//
+//        BuilderMain builderMain = BuilderMain.getInstance();
+//        builderMain.run();
 //
 //        BuilderWithInterface builderWithInterface = new BuilderWithInterface();
 //        builderWithInterface.run();
@@ -27,6 +28,8 @@ public class Main {
 //        CommonsMain commonsMain = CommonsMain.getInstance();
 //        commonsMain.run();
 
+        FactoryMain factoryMain = FactoryMain.getInstance();
+        factoryMain.run();
 
     }
 
